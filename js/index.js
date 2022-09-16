@@ -39,6 +39,7 @@ const timer = Timer({
   pauseAllSounds: sound.pauseAllSounds
 });
 
-// document.documentElement.style.setProperty('--primary-color', 'green');
+// START WITH buttonReduce DISABLED BEEN ENABLED WHEN MINUTES >= 5
+controls.disableAndEnableButtonReduce('00');
 
 Events({ controls, timer, sound });
